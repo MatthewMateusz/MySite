@@ -11,11 +11,7 @@ and open the template in the editor.
 body 
 {
     font-family: Verdana;
-    background-size: 100%;
-    background-image: url(School.jpeg) , url(Home.jpeg) , url(Other.jpeg);
-    background-position: left center , center center, right center;
-    
-    
+    background-color: #cecece;
 }
 
 .top 
@@ -44,21 +40,6 @@ body
 {
     width: 33.3%;
     float: left;
-}
-
-.leftBackground 
-{
-    background-image: url(School.jpeg);
-}
-
-.middleBackground 
-{
-    background-image: url(Home.jpeg);
-}
-
-.rightBakcground 
-{
-    background-image: url(Other.jpeg);
 }
 
 .left 
