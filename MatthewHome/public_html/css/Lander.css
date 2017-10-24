@@ -14,6 +14,27 @@ body
     background-color: #cecece;
 }
 
+a 
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 5px;
+}
+
+/*
+a:hover 
+{
+    text-decoration: underline;
+}
+
+a:active 
+{
+    text-decoration: underline;
+}
+*/
+
 .top 
 {
     background-color: black;
@@ -46,22 +67,40 @@ body
 {
     position: absolute;
     top: 55%;
-    left: 23.3%;
-    transform: translateX(-23.3%) translateY(-55%);
+    left: 30%;
+    transform: translateX(-33.3%) translateY(-55%);
 }
 
 .middle 
 {
     position: absolute;
     top: 55%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-55%);
+    left: 47%;
+    transform: translateY(-55%);
 }
 
 .right 
 {
     position: absolute;
     top: 55%;
-    left: 76.6%;
-    transform: translateX(-76.6%) translateY(-55%)
+    left: 75%;
+    transform: translateY(-55%)
+}
+
+/* Rotation link change */
+
+.container 
+{
+    display: inline-block;
+    cursor: pointer;
+    margin: 6px 0;
+}
+
+.bar1 , .bar2 
+{
+    width: 5px;
+    height: 35px;
+    background-color: #333;
+    transition: 0.4s;
+    flaot: left;
 }
